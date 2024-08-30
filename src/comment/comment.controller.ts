@@ -11,7 +11,7 @@ export class CommentsController {
         return this.commentsService.findAll();
     }
 
-    @Get(':id')
+    @Get(':id') 
     async findOne(@Param('id') id: number) {
         return this.commentsService.findOne(id);
     }
