@@ -1,0 +1,16 @@
+GET http://localhost:3000/
+
+###
+GET http://localhost:3000/cats/
+
+###
+GET http://localhost:3000/cats/test
+
+
+###
+POST http://localhost:3000/cats/test1?test=this_is_a_test
+Content-Type: application/json
+
+{
+    "test":"test"
+}
